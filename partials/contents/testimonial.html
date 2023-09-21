@@ -3,7 +3,7 @@
     <div class="col-md-10 col-xl-8 text-center">
       <h3 class="mb-4">Testimonials</h3>
       <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-        Mengapa Orang Percaya pada Kami tes 123 456
+        Mengapa Orang Percaya pada Kami
       </p>
     </div>
   </div>
@@ -97,4 +97,62 @@
       </ul>
     </div>
   </div>
+  
+  <!-- Button trigger modal -->
+  <div class="d-flex justify-content-center">
+    <button type="button" class="btn btn-primary btn-lg" id="feedbackButtonHome" data-bs-toggle="modal" data-bs-target="#feedbackButtonHomeModal">
+      Tambahkan Feedback Kamu!
+    </button>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="feedbackButtonHomeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Masukkan Feedback mu</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Nama Lengkap:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlSelect1">Pekerjaant</label>
+              <select multiple class="form-control" id="exampleFormControlSelect1">
+                <option>Karyawan</option>
+                <option>Pelajar/Mahasiswa</option>
+                <option>Wiraswasta</option>
+                <option>Asisten Rumah Tangga</option>
+                <option>Lainnya</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="feedbackButtonHomeFormControlSelect2">Rating yang diberikan</label>
+              <select class="form-control" id="feedbackButtonHomeFormControlSelect2">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Pesan Feedback:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </section>
