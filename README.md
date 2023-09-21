@@ -4,6 +4,9 @@ Landing Page Bumbu Umik adalah sebuah website yang berisi informasi mengenai pro
 
 ---
 
+### **📺 Demo Website :**
+Dapat dilihat pada link berikut : [Bumbu Umik](https://andikatuluspangestu.github.io/bumbu-umik-web/)
+
 ### **🙇 Anggota Kelompok:**
 - Andika Tulus Pangestu 
 - Yulianti Putri
@@ -66,3 +69,4 @@ git pull origin main
 ---
 - Jika ada perubahan pada repository utama, maka lakukan langkah 6 untuk mengambil perubahan tersebut.
 - Jika ada konflik pada langkah 6, maka selesaikan konflik (Diskusikan di Grup)
+- **WAJIB** menggunakan Live Server pada Visual Studio Code untuk menghindari Block CORS.

@@ -11,8 +11,3 @@ $(document).ready(function () {
   $("#testimonial").load("partials/contents/testimonial.html");
   $("#kontak").load("partials/contents/form-kontak.html");
 });
-
-// AOS Initialization
-AOS.init({
-  duration: 1200,
-});
