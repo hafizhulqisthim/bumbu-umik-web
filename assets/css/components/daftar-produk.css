@@ -17,6 +17,9 @@
   transform: scale(1.03); /* Memperbesar kartu saat dihover */
 }
 
+.description {
+  text-align: justify;
+}
 
 /* Mengatur teks deskripsi produk agar tidak terlalu panjang */
 .card-text {
