@@ -1,5 +1,110 @@
 #footer {
-  background-color: #3e4551;
+  background-color: #233243;
   color: #fff;
   padding: 20px;
+}
+
+.footer-section {
+  background-color: #233243;
+}
+
+.footer-top {
+  padding-top: 96px;
+  padding-bottom: 50px;
+}
+
+.footer-top p,
+.company-footer-contact-list li {
+  color: #ffffff;
+}
+
+.company-footer-contact-list {
+  margin-top: 10px;
+}
+
+.company-footer-contact-list li {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+
+.company-footer-contact-list li+li {
+  margin-top: 5px;
+}
+
+.company-footer-contact-list li i {
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.footer-top .site-logo {
+  margin-bottom: 25px;
+  display: block;
+  max-width: 170px;
+}
+
+.footer-top .site-logo img {
+  max-width: 100%;
+}
+
+.widget-title {
+  text-transform: capitalize;
+}
+
+.footer-top .widget-title {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.courses-link-list ol ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.courses-link-list li+li {
+  margin-top: 10px;
+}
+
+.courses-link-list li a {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: var(--para-font);
+  font-weight: 400;
+}
+
+.courses-link-list li a:hover {
+  color: #ffb606;
+}
+
+.footer-top .small-post-title a {
+  font-family: var(--para-font);
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.small-post-item .post-date {
+  color: #ffb606;
+  margin-bottom: 3px;
+  font-family: var(--para-font);
+  font-weight: 400;
+}
+
+.small-post-list li+li {
+  margin-top: 30px;
+}
+
+
+.footer-bottom {
+  padding: 13px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.149);
+}
+
+.copy-right-text {
+  color: #ffffff;
+}
+
+.copy-right-text a {
+  color: #ffb606;
 }
