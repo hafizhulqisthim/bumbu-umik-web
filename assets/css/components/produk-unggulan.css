@@ -1,0 +1,38 @@
+
+
+/* Mengubah warna teks menjadi hitam */
+.btn {
+  color: black;
+}
+
+/* Mengubah warna outline (garis tepi) menjadi hitam */
+.btn.btn-outline-light {
+  border-color: #000;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  /* Pusatkan secara horizontal */
+  align-items: center;
+  /* Pusatkan secara vertikal jika diperlukan */
+}
+
+/* Opsi tambahan untuk penataan pagination */
+.page-item {
+  margin: 0 5px;
+  /* Beri jarak antara setiap elemen pagination */
+}
+
+.page-link {
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: #ddd;
+}

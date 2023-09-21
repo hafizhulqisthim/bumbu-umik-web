@@ -1,0 +1,16 @@
+@import 'components/header.css';
+@import 'components/produk-unggulan.css';
+@import 'components/daftar-produk.css';
+@import 'components/tentang-kami.css';
+@import 'components/testimonial.css';
+@import 'components/form-kontak.css';
+@import 'components/footer.css';
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* All your own custom css here.. */

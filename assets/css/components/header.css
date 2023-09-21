@@ -1,0 +1,15 @@
+.hero-image-carousel {
+  width: 100%;
+  /* Mengatur lebar gambar agar mengisi seluruh lebar parent */
+  height: 500px;
+  /* Atur tinggi sesuai kebutuhan Anda */
+  overflow: hidden;
+  /* Untuk memastikan gambar tidak keluar dari kotak */
+}
+
+.hero-image-carousel img {
+  width: 100%;
+  /* Mengisi seluruh lebar parent */
+  height: 100%;
+  /* Menjaga aspek ratio gambar */
+}
