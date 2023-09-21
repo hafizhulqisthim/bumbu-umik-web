@@ -19,3 +19,16 @@ document.addEventListener("DOMContentLoaded", function () {
   loadContent("partials/contents/testimonial.html", "testimonial");
   loadContent("partials/contents/form-kontak.html", "kontak");
 });
+
+// Jika CORS error, buatkan peringatan untuk user
+document.addEventListener("DOMContentLoaded", function () {
+
+  // Hidden all contents sections
+  const contents = document.querySelectorAll(".contents");
+  contents.forEach((content) => {
+    content.style.display = "none";
+  });
+
+  const element = document.getElementById("footer");
+  element.innerHTML = "Maaf, terjadi kesalahan. Silahkan gunakan Live Server atau Web Server lainnya.";
+});
