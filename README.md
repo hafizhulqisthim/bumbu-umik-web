@@ -25,13 +25,13 @@ Dapat dilihat pada link berikut : [Bumbu Umik](https://andikatuluspangestu.githu
 git clone https://github.com/andikatuluspangestu/bumbu-umik-web.git
 ```
 
-#### **Langkah 3:** Buka folder Projects
+#### **Langkah 2:** Buka folder Projects
 
 ```bash
 cd bumbu-umik-web
 ```
 
-#### **Langkah 4:** Sinkronkan dengan Repository Utama
+#### **Langkah 3:** Sinkronkan dengan Repository Utama
 
 ```bash
 git pull origin main
@@ -39,7 +39,7 @@ git pull origin main
 > Lakukan ``git pull`` setiap ada perubahan pada repository utama.
 
 
-#### **Langkah 5:** Membuat Perubahan dan Mengunggah Perubahan
+#### **Langkah 4:** Membuat Perubahan dan Mengunggah Perubahan
 
 1. Lakukan perubahan pada proyek menggunakan Visual Studio Code  
 2. Setelah selesai maka simpan  atau tekan ```CTRL + S```  
@@ -61,7 +61,7 @@ git pull origin main
     git push origin main
     ```
 
-#### **Langkah 6:** Sinkronkan dengan Repository Utama Kembali
+#### **Langkah 5:** Sinkronkan dengan Repository Utama Kembali
 
 ```bash
 git pull origin main
@@ -69,6 +69,6 @@ git pull origin main
 
 ### **🗒 Catatan :**
 ---
-- Jika ada perubahan pada repository utama, maka lakukan langkah 6 untuk mengambil perubahan tersebut.
-- Jika ada konflik pada langkah 6, maka selesaikan konflik (Diskusikan di Grup)
+- Jika ada perubahan pada repository utama, maka lakukan langkah 5 untuk mengambil perubahan tersebut.
+- Jika ada konflik pada langkah 5, maka selesaikan konflik (Diskusikan di Grup)
 - **WAJIB** menggunakan Live Server pada Visual Studio Code untuk menghindari Block CORS.
