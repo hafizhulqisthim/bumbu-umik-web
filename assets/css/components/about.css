@@ -1,0 +1,25 @@
+/* Tentang Kami */
+#about {
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#about h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #949232;
+  font-family: 'Croissant One', cursive;
+}
+
+#about p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #453a4f;
+  margin-bottom: 20px;
+}
+
+#about img {
+  width: 60%;
+}

@@ -1,0 +1,63 @@
+/* Hero Banner */
+#hero {
+  background-image: url('https://raw.githubusercontent.com/andikatuluspangestu/bumbu-umik-web/main/assets/img/others/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 76vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#hero h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 130px;
+  position: relative;
+  right: -100px;
+  color: #453a4f;
+  font-family: 'Croissant One', cursive;
+}
+
+#hero p {
+  font-size: 20px;
+  color: #949232;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  right: -100px;
+}
+
+#hero .btn {
+  background-color: #fff;
+  color: #e1a56b;
+  border-radius: 55px;
+  border: solid 1px #e1a56b;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+  right: -360px;
+  position: relative;
+}
+
+#hero .btn:hover {
+  background-color: #e1a56b;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+#hero img {
+  width: 60%;
+  position: relative;
+  z-index: 1;
+  bottom: 0px;
+  left: 100px;
+  padding-top: 50px;
+}
