@@ -6,9 +6,6 @@ Landing Page Bumbu Umik adalah sebuah website yang berisi informasi mengenai pro
 
 ---
 
-### **📺 Demo Website :**
-Dapat dilihat pada link berikut : [Bumbu Umik](https://andikatuluspangestu.github.io/bumbu-umik-web/)
-
 ### **🙇 Anggota Kelompok:**
 - Andika Tulus Pangestu 
 - Yulianti Putri
