@@ -1,4 +1,11 @@
-/* Mengubah warna teks menjadi hitam */
+p {
+  margin-bottom: 0px; /* Sesuaikan dengan jarak yang Anda inginkan */
+}
+
+/* Tambahkan margin atas pada tombol */
+#beliSekarang {
+  margin-top: 150px; /* Sesuaikan dengan jarak yang Anda inginkan */
+}/* Mengubah warna teks menjadi hitam */
 .btn {
   color: black;
 }
