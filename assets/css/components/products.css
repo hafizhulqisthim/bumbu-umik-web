@@ -1,4 +1,8 @@
 /* Daftar Produk */
+  .card {
+    margin-bottom: 15px; 
+  }
+
 #products {
   padding: 100px;
   background-color: #537987;
