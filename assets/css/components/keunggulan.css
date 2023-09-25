@@ -1,25 +1,36 @@
 /* Keunggulan */
-#keunggulan {
-  padding-bottom: 100px;
+
+#keunggulan .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+#keunggulan .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #keunggulan .card {
+  text-align: center;
   border: none;
   background-color: transparent;
   transition: all .3s ease-in-out;
   width: 18rem;
 }
 
-#keunggulan img {
-  width: 50%;
-  margin-bottom: 10px;
+#keunggulan .card img {
+  max-width: 100%;
+  height: auto;
 }
-/* Tampilan responsif untuk layar dengan lebar kurang dari atau sama dengan 768px */
-@media (max-width: 768px) {
-  .col-12.col-md-4 {
-    /* Ubah lebar kolom menjadi 100% */
-    width: 100%;
-    /* Tambahkan margin bawah 20px antara kotak-kotak */
-    margin-bottom: 20px;
+
+@media (max-width: 575.98px) {
+  #keunggulan .col-6 {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 }
