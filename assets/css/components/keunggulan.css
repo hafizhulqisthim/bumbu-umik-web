@@ -14,3 +14,12 @@
   width: 50%;
   margin-bottom: 10px;
 }
+/* Tampilan responsif untuk layar dengan lebar kurang dari atau sama dengan 768px */
+@media (max-width: 768px) {
+  .col-12.col-md-4 {
+    /* Ubah lebar kolom menjadi 100% */
+    width: 100%;
+    /* Tambahkan margin bawah 20px antara kotak-kotak */
+    margin-bottom: 20px;
+  }
+}
