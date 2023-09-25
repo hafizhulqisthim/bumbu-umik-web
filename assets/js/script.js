@@ -8,20 +8,15 @@ $(document).ready(function () {
   $("#call-to-action").load("partials/cta.html");
   $("#kritiksaran").load("partials/kritiksaran.html");
   $("#footer").load("partials/footer.html");
-});
 
-$(document).ready(function () {
   function setActiveLink() {
     var currentHash = window.location.hash;
-    $(".navbar-nav a").removeClass("active"); 
-    $('.navbar-nav a[href="' + currentHash + '"]').addClass("active"); 
+    $(".navbar-nav a").removeClass("active");
+    $('.navbar-nav a[href="' + currentHash + '"]').addClass("active");
   }
 
-  setActiveLink(); 
+  setActiveLink();
   $(window).on("hashchange", setActiveLink);
-});
 
-$(document).ready(function () {
   AOS.init();
 });
-
