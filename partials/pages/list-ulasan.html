@@ -20,6 +20,92 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    /* Stil umum untuk semua resolusi */
+    /* Desktop */
+    @media screen and (min-width: 1081px) {
+      /* Tambahkan CSS untuk resolusi desktop di sini */
+      .navbar {
+        background-color: #333;
+      }
+
+      .logo-brand {
+        width: 50px;
+      }
+    }
+
+    /* Tablet */
+    @media screen and (max-width: 1080px) {
+      /* Tambahkan CSS untuk resolusi tablet di sini */
+      .navbar {
+        background-color: #555;
+      }
+
+      .search-input {
+        width: 200px; /* Lebar kotak pencarian untuk tablet */
+      }
+    }
+
+    /* Smartphone (potrait) */
+    @media screen and (max-width: 959px) {
+      /* Tambahkan CSS untuk resolusi smartphone potrait di sini */
+      .navbar {
+        background-color: #777;
+      }
+
+      .search-input {
+        width: 150px; /* Lebar kotak pencarian untuk smartphone potrait */
+      }
+
+      .ulasan h2 {
+        font-size: 24px; /* Ukuran judul ulasan diubah untuk tampilan smartphone potrait */
+      }
+    }
+
+    /* Smartphone (landscape) */
+    @media screen and (max-width: 780px) {
+      /* Tambahkan CSS untuk resolusi smartphone landscape di sini */
+      .navbar {
+        background-color: #999;
+      }
+
+      .search-input {
+        width: 120px; /* Lebar kotak pencarian untuk smartphone landscape */
+      }
+
+      .ulasan h2 {
+        font-size: 20px; /* Ukuran judul ulasan diubah untuk tampilan smartphone landscape */
+      }
+
+      .card {
+        margin-bottom: 20px;
+      }
+
+      .card img {
+        max-width: 100%;
+      }
+    }
+
+    /* Mobile */
+    @media screen and (max-width: 575.98px) {
+      /* Tambahkan CSS untuk resolusi mobile di sini */
+      .navbar {
+        background-color: #BBB;
+      }
+
+      .search-input {
+        width: 100%; /* Lebar kotak pencarian mengisi seluruh lebar layar pada mobile */
+      }
+
+      .ulasan h2 {
+        font-size: 18px; /* Ukuran judul ulasan diubah untuk tampilan mobile */
+      }
+
+      .card img {
+        max-width: 100%;
+      }
+    }
+  </style>
 
 </head>
 
