@@ -21,3 +21,7 @@ $(document).ready(function () {
   $(window).on("hashchange", setActiveLink);
 });
 
+$(document).ready(function () {
+  AOS.init();
+});
+
