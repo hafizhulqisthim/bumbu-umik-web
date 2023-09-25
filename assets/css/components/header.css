@@ -47,3 +47,11 @@
   font-weight: 500;
   color: #ad9c9c;
 }
+
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
