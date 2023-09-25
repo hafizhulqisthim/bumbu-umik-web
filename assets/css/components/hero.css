@@ -62,3 +62,60 @@
   left: 100px;
   padding-top: 50px;
 }
+
+@media (max-width: 575.98px) {
+
+  #hero {
+    background-image: url('https://raw.githubusercontent.com/andikatuluspangestu/bumbu-umik-web/main/assets/img/others/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 76vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  #hero .row {
+    --bs-gutter-x: 0;
+  }
+
+  #hero h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    position: relative;
+    bottom: -190%;
+    right: 0px;
+    color: #453a4f;
+    font-family: 'Croissant One', cursive;
+    z-index: 999;
+  }
+
+  #hero p {
+    font-size: 14px;
+    color: #949232;
+    font-weight: 400;
+    text-align: center;
+    bottom: -190%;
+    position: relative;
+    right: 0px;
+  }
+
+  #hero .btn {
+    display: none;
+  }
+
+  #hero img {
+    width: 60%;
+    position: relative;
+    z-index: 1;
+    top: -80%;
+    left: 100px;
+    padding-top: 50px;
+  }
+}
