@@ -8,4 +8,15 @@ $(document).ready(function () {
   $("#call-to-action").load("partials/cta.html");
   $("#kritiksaran").load("partials/kritiksaran.html");
   $("#footer").load("partials/footer.html");
+
+  function setActiveLink() {
+    var currentHash = window.location.hash;
+    $(".navbar-nav a").removeClass("active");
+    $('.navbar-nav a[href="' + currentHash + '"]').addClass("active");
+  }
+
+  setActiveLink();
+  $(window).on("hashchange", setActiveLink);
+
+  AOS.init();
 });
