@@ -1,121 +1,118 @@
 /* Hero Banner */
-#hero {
-  background-image: url('https://raw.githubusercontent.com/andikatuluspangestu/bumbu-umik-web/main/assets/img/others/bg.png');
+.hero-background {
+  background-image: url('https://raw.githubusercontent.com/andikatuluspangestu/bumbu-umik-web/main/assets/img/others/bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 76vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-top: 100px;
+  height: 100vh;
 }
 
-#hero h2 {
+.hero-title {
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 10px;
-  margin-top: 130px;
   position: relative;
-  right: -100px;
   color: #453a4f;
   font-family: 'Croissant One', cursive;
+  margin-top: 180px;
+  margin-left: 150px;
 }
 
-#hero p {
-  font-size: 20px;
+.hero-subtitle {
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
   color: #949232;
   font-weight: 400;
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  right: -100px;
+  right: -150px;
 }
 
-#hero .btn {
+.hero-button {
   background-color: #fff;
   color: #e1a56b;
   border-radius: 55px;
-  border: solid 1px #e1a56b;
+  border: solid 2px #e1a56b;
   padding: 10px 20px;
   font-size: 18px;
   font-weight: 700;
   transition: all .3s ease-in-out;
-  right: -360px;
+  right: -255px;
   position: relative;
+  margin-top: 20px;
 }
 
-#hero .btn:hover {
+.hero-button:hover {
   background-color: #e1a56b;
-  border: solid 1px #fff;
+  border: solid 2px #fff;
   color: #fff;
 }
 
-#hero img {
-  width: 60%;
+.hero-image {
+  width: 83%;
   position: relative;
   z-index: 1;
-  bottom: 0px;
+  bottom: -10%;
   left: 100px;
   padding-top: 50px;
 }
 
-@media (max-width: 575.98px) {
+/* Responsive layout */
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-  #hero {
-    background-image: url('https://raw.githubusercontent.com/andikatuluspangestu/bumbu-umik-web/main/assets/img/others/bg.png');
-    background-size: cover;
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-background {
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    height: 76vh;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-  }
-
-  #hero .row {
-    --bs-gutter-x: 0;
-  }
-
-  #hero h2 {
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 0px;
+    background-size: cover;
     position: relative;
-    bottom: -190%;
-    right: 0px;
-    color: #453a4f;
-    font-family: 'Croissant One', cursive;
-    z-index: 999;
+    height: 70vh;
+    overflow: hidden;
   }
 
-  #hero p {
-    font-size: 14px;
-    color: #949232;
-    font-weight: 400;
-    text-align: center;
-    bottom: -190%;
-    position: relative;
-    right: 0px;
+  .hero-title,
+  .hero-subtitle,
+  .hero-image {
+    margin: 0 auto;
+    z-index: 2;
   }
 
-  #hero .btn {
+  .hero-title {
     display: none;
   }
 
-  #hero img {
-    width: 60%;
+  .hero-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    color: #949232;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 15vh;
+    z-index: 2;
+  }
+
+  .hero-button {
+    display: none;
+  }
+
+  .hero-image {
+    width: 100%;
     position: relative;
     z-index: 1;
-    top: -80%;
-    left: 100px;
-    padding-top: 50px;
+    bottom: -80px;
+    left: 0;
   }
 }
