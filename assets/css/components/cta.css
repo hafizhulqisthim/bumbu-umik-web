@@ -41,7 +41,7 @@
   color: #fff;
 }
 /* Tampilan responsif untuk layar dengan lebar kurang dari atau sama dengan 768px */
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .col-md-5 {
     /* Ubah lebar kolom menjadi 100% */
     width: 100%;
