@@ -147,10 +147,12 @@
 @media screen and (max-width: 575.98px) {
   .testimonial-title h3 {
     font-size: 20px;
+    text-align: center;
   }
 
   .testimonial-title p {
     font-size: 12px;
+    text-align: center;
   }
 
   .testimonial-item img {
@@ -167,5 +169,49 @@
 
   .testimonial-item p {
     font-size: 10px;
+  }
+
+  a.carousel-control-prev {
+    left: -75px;
+  }
+
+  /* Untuk menggeser tombol carousel next ke kanan */
+  a.carousel-control-next {
+    left: 300px;
+  }
+
+  /* Menggunakan flexbox untuk rata tengah elemen-elemen */
+  .carousel-inner .carousel-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .testimonial-item img {
+    margin: 0 auto; /* Mengatur foto testimonial menjadi rata tengah */
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  a.carousel-control-prev {
+    left: -75px;
+  }
+
+  /* Untuk menggeser tombol carousel next ke kanan */
+  a.carousel-control-next {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  a.carousel-control-prev {
+    left: -75px;
+  }
+
+  /* Untuk menggeser tombol carousel next ke kanan */
+  a.carousel-control-next {
+    left: 150px;
   }
 }
