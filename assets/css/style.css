@@ -116,7 +116,7 @@ body {
 
 /* Hero Banner */
 .hero {
-  background-image: url('https: //github.com/andikatuluspangestu/bumbu-umik-web/blob/main/assets/img/others/bg-desktop.jpg?raw=true');
+  background-image: url('https://github.com/andikatuluspangestu/bumbu-umik-web/blob/main/assets/img/others/bg-desktop.jpg?raw=true');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -127,14 +127,14 @@ body {
 
 @media (max-width: 767px) {
   .hero {
-    background-image: url('https: //github.com/andikatuluspangestu/bumbu-umik-web/blob/main/assets/img/others/bg-smartphone.jpg?raw=true') !important;
+    background-image: url('https://github.com/andikatuluspangestu/bumbu-umik-web/blob/main/assets/img/others/bg-smartphone.jpg?raw=true') !important;
     height: 800px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .hero {
-    background-image: url('https: //github.com/andikatuluspangestu/bumbu-umik-web/blob/main/assets/img/others/bg-desktop.jpg?raw=true');
+    background-image: url('https://github.com/andikatuluspangestu/bumbu-umik-web/blob/main/assets/img/others/bg-desktop.jpg?raw=true');
     margin-top: 40px;
   }
 }
