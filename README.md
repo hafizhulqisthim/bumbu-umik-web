@@ -7,13 +7,15 @@ Landing Page Bumbu Umik adalah sebuah website yang berisi informasi mengenai pro
 ---
 
 ### **🙇 Anggota Kelompok:**
-- Andika Tulus Pangestu 
+
+- Andika Tulus Pangestu
 - Yulianti Putri
 - Eka Prasetya Nugraha
 - Hafizhul Qisti Muhammad
 - Anhar Mukhlis
 
 ### **📚 Panduan Kolaborasi dengan Git & GitHub**
+
 ---
 
 #### **Langkah 1:** Clone Repository ke Komputer Lokal
@@ -33,30 +35,30 @@ cd bumbu-umik-web
 ```bash
 git pull origin main
 ```
-> Lakukan ``git pull`` setiap ada perubahan pada repository utama.
 
+> Lakukan `git pull` setiap ada perubahan pada repository utama.
 
 #### **Langkah 4:** Membuat Perubahan dan Mengunggah Perubahan
 
-1. Lakukan perubahan pada proyek menggunakan Visual Studio Code  
-2. Setelah selesai maka simpan  atau tekan ```CTRL + S```  
+1. Lakukan perubahan pada proyek menggunakan Visual Studio Code
+2. Setelah selesai maka simpan atau tekan `CTRL + S`
 3. Tambahkan perubahan:
 
-    ```bash
-    git add .
-    ```
+   ```bash
+   git add .
+   ```
 
 4. Buat commit:
 
-    ```bash
-    git commit -m "Nama Perubahan"
-    ```
+   ```bash
+   git commit -m "Nama Perubahan"
+   ```
 
 5. Unggah perubahan ke GitHub:
 
-    ```bash
-    git push origin main
-    ```
+   ```bash
+   git push origin main
+   ```
 
 #### **Langkah 5:** Sinkronkan dengan Repository Utama Kembali
 
@@ -65,7 +67,9 @@ git pull origin main
 ```
 
 ### **🗒 Catatan :**
+
 ---
+
 - Jika ada perubahan pada repository utama, maka lakukan langkah 5 untuk mengambil perubahan tersebut.
 - Jika ada konflik pada langkah 5, maka selesaikan konflik (Diskusikan di Grup)
 - **WAJIB** menggunakan Live Server pada Visual Studio Code untuk menghindari Block CORS.
