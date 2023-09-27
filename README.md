@@ -76,7 +76,7 @@ cd bumbu-umik-web
 2. Jalankan perintah berikut:
 
 ```bash 
-sass assets/scss/layouts/_header.scss assets/css/layouts/_header.css --style compressed
+sass assets/scss/layouts/_header.scss assets/css/layouts/header.css --style compressed
 ```
 
 > Ganti `_header.scss` dengan nama file yang ingin di compile.
