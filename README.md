@@ -4,9 +4,9 @@ Landing Page Bumbu Umik adalah sebuah website yang berisi informasi mengenai pro
 
 > Bumbu Masak Umik adalah produk bumbu masak yang dijual oleh Bumbu Umik. Bumbu Umik merupakan sebuah usaha kecil yang bergerak di bidang kuliner. Produknya memiliki jangkauan pasar yang luas, bumbu Umik memiliki beberapa produk bumbu masak, diantaranya adalah bumbu masak nasi goreng, bumbu masak soto, bumbu masak rawon, bumbu masak rendang, dan bumbu masak opor. Bumbu Umik juga memiliki beberapa produk lainnya, seperti bumbu masak ayam goreng, bumbu masak ayam bakar, bumbu masak ayam goreng, dan bumbu masak ayam bakar.
 
----
-
 ### **🙇 Anggota Kelompok:**
+
+---
 
 - Andika Tulus Pangestu
 - Yulianti Putri
@@ -65,8 +65,10 @@ git pull origin main
 ```bash
 git pull origin main
 ```
+### **📚 Cara Compile SASS**
 
-### **Cara Compile SCSS**
+---
+
 1. Masuk ke direktori root project dengan terminal
 
 ```bash
@@ -76,7 +78,7 @@ cd bumbu-umik-web
 2. Jalankan perintah berikut:
 
 ```bash 
-sass assets/scss/layouts/_header.scss assets/css/layouts/header.css --style compressed
+sass assets/scss/layouts/_header.scss assets/css/layouts/header.css
 ```
 
 > Ganti `_header.scss` dengan nama file yang ingin di compile.
