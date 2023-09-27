@@ -1,0 +1,89 @@
+// Navbar
+.navbar {
+  background-color: $background-gunmetal;
+  padding: 10px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo-brand {
+  width: 100px;
+}
+
+.nav-link {
+  color: $white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+
+  .active {
+    color: $crimson !important;
+    font-weight: bold;
+  }
+
+  &:hover {
+    color: $gunmetal;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none !important;
+}
+
+.search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 55px;
+  margin: 5px 0;
+
+  &:focus {
+    box-shadow: none;
+    border: none;
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: $pale;
+  }
+}
+
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+@media (max-width: 575.98px) {
+  .navbar .navbar-collapse {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .navbar .navbar-collapse ul li {
+    margin-top: 10px;
+  }
+  .navbar .navbar-collapse ul li a {
+    color: #5e3f23 !important;
+    padding-left: 20px;
+  }
+  .navbar .navbar-collapse ul li a:hover {
+    border-left: #68411c solid 5px;
+    background-color: rgba(225, 164, 107, 0.2823529412);
+  }
+  .search-input {
+    margin: 0 10px 10px 10px;
+    border-radius: 10px;
+  }
+  .search-input:focus {
+    box-shadow: none;
+    border: none;
+  }
+  .search-input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ad9c9c;
+  }
+}

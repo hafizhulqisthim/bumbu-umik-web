@@ -1,113 +1,15 @@
-@import "https://fonts.googleapis.com/css2?family=Croissant+One&display=swap";
-@import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Caveat&display=swap";
+// Import Base Styles
+@import "base/reset";
+@import "base/colors";
+@import "base/typography";
 
-// Color Pallete
-$gunmetal : #453a4f;
-$white    : #fff;
-$crimson  : #b5292d;
-$pale     : #ad9c9c;
-$cocoa    : #5e3f23;
-$olive    : #949232;
-$coral    : #ff6754;
-$khaki    : #dddb78;
-$fawn     : #e1a56b;
-
-// Font Family
-$font-primary   : 'M PLUS Rounded 1c', sans-serif;
-$font-secondary : 'Croissant One', cursive;
-
-// Background Color
-$background-gunmetal  : #e1a56b;
-$background-white     : #fff;
-$background-crimson   : #e1a46b48;
-$background-pale      : transparent;
-$background-cocoa     : #537987;
-$background-olive     : #b5292d;
-$background-coral     : #949232;
-$background-khaki     : #ff6754;
-$background-fawn      : #453a4f;
-
-// Reset CSS
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: $font-primary;
-  font-size: 16px;
-  font-weight: 400;
-  color: $gunmetal;
-}
-
-// Navbar
-.navbar {
-  background-color: $background-gunmetal;
-  padding: 10px 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
-}
-
-.logo-brand {
-  width: 100px;
-}
-
-.nav-link {
-  color: $white;
-  font-size: 18px;
-  font-weight: 500;
-  transition: all .3s ease-in-out;
-
-  .active {
-    color: $crimson !important;
-    font-weight: bold;
-  }
-
-  &:hover {
-    color: $gunmetal;
-  }
-}
-
-.navbar-toggler {
-  border: none;
-  outline: none !important;
-}
-
-.search-input {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 55px;
-  margin: 5px 0;
-
-  &:focus {
-    box-shadow: none;
-    border: none;
-  }
-
-  &::placeholder {
-    font-size: 14px;
-    font-weight: 500;
-    color: $pale;
-  }
-}
-
-.fixed-top {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-// Hero Banner
-.hero {
-  background-image: url('/assets/img/others/bg-desktop.jpg');
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: 90px;
-}
-
+// Import Layouts
+@import "layouts/header";
+@import "layouts/hero";
+@import "layouts/about";
+@import "layouts/keunggulan";
+@import "layouts/products";
+@import "layouts/testimonial";
+@import "layouts/cta";
+@import "layouts/kritiksaran";
+@import "layouts/footer";
