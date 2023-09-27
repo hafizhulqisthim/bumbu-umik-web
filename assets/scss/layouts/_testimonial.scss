@@ -2,3 +2,122 @@
 @import "../base/reset";
 @import "../base/colors";
 @import "../base/typography";
+
+
+#testimonial {
+    padding: 100px;
+    background-color: #fff;
+}
+
+#testimonial .carousel-control-prev {
+    width: 50px;
+    height: 50px;
+    background-color: #e1a56b;
+    border-radius: 50%;
+    border: none;
+    outline: none !important;
+}
+
+#testimonial .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: #e1a56b;
+    border-radius: 50%;
+    border: none;
+    outline: none !important;
+}
+
+.testimonial-item {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.testimonial-item img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-item h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.testimonial-item .rating {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+}
+
+.testimonial-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.testimonial-title h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #949232;
+    font-family: "Croissant One", cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.testimonial-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #453a4f;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#call-to-action {
+    background-color: #949232;
+    padding: 100px;
+}
+
+#call-to-action img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#call-to-action h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Croissant One", cursive;
+}
+
+#call-to-action p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#call-to-action .btn {
+    background-color: #fff;
+    color: #949232;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+
+#call-to-action .btn:hover {
+    background-color: #949232;
+    border: solid 2px #fff;
+    color: #fff;
+}
