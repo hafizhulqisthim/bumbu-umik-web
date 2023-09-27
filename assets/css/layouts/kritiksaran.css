@@ -1,0 +1,55 @@
+@import "https://fonts.googleapis.com/css2?family=Croissant+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Caveat&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #453a4f;
+}
+
+#kritiksaran {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+#kritiksaran h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #949232;
+  font-family: "Croissant One", cursive;
+}
+
+#kritiksaran p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #453a4f;
+  margin-bottom: 20px;
+}
+
+#kritiksaran .btn {
+  background-color: #ff6754;
+  color: #fff;
+  border-radius: 5px;
+  border: solid 2px #fff;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+#kritiksaran .btn:hover {
+  background-color: #fff;
+  border: solid 2px #ff6754;
+  color: #ff6754;
+}
+
+/*# sourceMappingURL=kritiksaran.css.map */

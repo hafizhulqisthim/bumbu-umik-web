@@ -2,3 +2,42 @@
 @import "../base/reset";
 @import "../base/colors";
 @import "../base/typography";
+
+
+#kritiksaran {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+#kritiksaran h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #949232;
+    font-family: "Croissant One", cursive;
+}
+
+#kritiksaran p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #453a4f;
+    margin-bottom: 20px;
+}
+
+#kritiksaran .btn {
+    background-color: #ff6754;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+
+#kritiksaran .btn:hover {
+    background-color: #fff;
+    border: solid 2px #ff6754;
+    color: #ff6754;
+}
