@@ -1,23 +1,23 @@
-$color_1: #453a4f;
-$color_2: #fff;
-$color_3: #b5292d;
-$color_4: #ad9c9c;
-$color_5: #5e3f23;
-$color_6: #949232;
-$color_7: #ff6754;
-$color_8: #dddb78;
-$color_9: #e1a56b;
-$font-family_1: 'M PLUS Rounded 1c', sans-serif;
-$font-family_2: 'Croissant One', cursive;
-$background-color_1: #e1a56b;
-$background-color_2: #fff;
-$background-color_3: #e1a46b48;
-$background-color_4: transparent;
-$background-color_5: #537987;
-$background-color_6: #b5292d;
-$background-color_7: #949232;
-$background-color_8: #ff6754;
-$background-color_9: #453a4f;
+$gunmetal: #453a4f;
+$white: #fff;
+$crimson: #b5292d;
+$pale: #ad9c9c;
+$cocoa: #5e3f23;
+$olive: #949232;
+$coral: #ff6754;
+$khaki: #dddb78;
+$fawn: #e1a56b;
+$font-primary: 'M PLUS Rounded 1c', sans-serif;
+$font-secondary: 'Croissant One', cursive;
+$background-gunmetal: #e1a56b;
+$background-white: #fff;
+$background-crimson: #e1a46b48;
+$background-pale: transparent;
+$background-cocoa: #537987;
+$background-olive: #b5292d;
+$background-coral: #949232;
+$background-khaki: #ff6754;
+$background-fawn: #453a4f;
 
 @import "https://fonts.googleapis.com/css2?family=Croissant+One&display=swap";
 @import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap";
@@ -30,14 +30,14 @@ $background-color_9: #453a4f;
 }
 
 body {
-  font-family: $font-family_1;
+  font-family: $font-primary;
   font-size: 16px;
   font-weight: 400;
-  color: $color_1;
+  color: $gunmetal;
 }
 
 .navbar {
-  background-color: $background-color_1;
+  background-color: $background-gunmetal;
   padding: 10px 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
 }
@@ -47,18 +47,18 @@ body {
 }
 
 .nav-link {
-  color: $color_2;
+  color: $white;
   font-size: 18px;
   font-weight: 500;
   transition: all .3s ease-in-out;
 
   .active {
-    color: $color_3 !important;
+    color: $crimson !important;
     font-weight: bold;
   }
 
   &:hover {
-    color: $color_1;
+    color: $gunmetal;
   }
 }
 
@@ -81,7 +81,7 @@ body {
   &::placeholder {
     font-size: 14px;
     font-weight: 500;
-    color: $color_4;
+    color: $pale;
   }
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 #about {
-  background-color: $background-color_2;
+  background-color: $background-white;
   padding-top: 70px;
   padding-bottom: 50px;
 
@@ -112,14 +112,14 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: $color_6;
-    font-family: $font-family_2;
+    color: $olive;
+    font-family: $font-secondary;
   }
 
   p {
     font-size: 18px;
     font-weight: 400;
-    color: $color_1;
+    color: $gunmetal;
     margin-bottom: 20px;
   }
 
@@ -131,7 +131,7 @@ body {
 #keunggulan {
   .card {
     border: none;
-    background-color: $background-color_4;
+    background-color: $background-pale;
     transition: all .3s ease-in-out;
 
     img {
@@ -146,7 +146,7 @@ body {
 }
 
 #products {
-  background-color: $background-color_5;
+  background-color: $background-cocoa;
 
   .container {
     display: flex;
@@ -165,8 +165,8 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: $color_2;
-    font-family: $font-family_2;
+    color: $white;
+    font-family: $font-secondary;
   }
 
   .card {
@@ -185,9 +185,9 @@ body {
     }
 
     .btn-detail-product {
-      background-color: $background-color_1;
+      background-color: $background-gunmetal;
       border: none;
-      color: $color_2;
+      color: $white;
       font-size: 14px;
       font-weight: 500;
       padding: 10px 20px;
@@ -198,19 +198,19 @@ body {
 
   .btn-detail-product {
     &:hover {
-      background-color: $background-color_6;
+      background-color: $background-olive;
     }
   }
 }
 
 #testimonial {
   padding: 100px;
-  background-color: $background-color_2;
+  background-color: $background-white;
 
   .carousel-control-prev {
     width: 50px;
     height: 50px;
-    background-color: $background-color_1;
+    background-color: $background-gunmetal;
     border-radius: 50%;
     border: none;
     outline: none !important;
@@ -219,7 +219,7 @@ body {
   .carousel-control-next {
     width: 50px;
     height: 50px;
-    background-color: $background-color_1;
+    background-color: $background-gunmetal;
     border-radius: 50%;
     border: none;
     outline: none !important;
@@ -260,8 +260,8 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: $color_6;
-    font-family: $font-family_2;
+    color: $olive;
+    font-family: $font-secondary;
     text-align: center;
     font-size: 30px;
   }
@@ -269,7 +269,7 @@ body {
   p {
     font-size: 18px;
     font-weight: 400;
-    color: $color_1;
+    color: $gunmetal;
     margin-bottom: 20px;
     text-align: center;
     font-size: 18px;
@@ -280,7 +280,7 @@ body {
 }
 
 #call-to-action {
-  background-color: $background-color_7;
+  background-color: $background-coral;
   padding: 100px;
 
   img {
@@ -292,20 +292,20 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: $color_2;
-    font-family: $font-family_2;
+    color: $white;
+    font-family: $font-secondary;
   }
 
   p {
     font-size: 18px;
     font-weight: 400;
-    color: $color_2;
+    color: $white;
     margin-bottom: 20px;
   }
 
   .btn {
-    background-color: $background-color_2;
-    color: $color_6;
+    background-color: $background-white;
+    color: $olive;
     border-radius: 5px;
     border: solid 2px #fff;
     padding: 10px 10px;
@@ -314,9 +314,9 @@ body {
     transition: all .3s ease-in-out;
 
     &:hover {
-      background-color: $background-color_7;
+      background-color: $background-coral;
       border: solid 2px #fff;
-      color: $color_2;
+      color: $white;
     }
   }
 }
@@ -324,26 +324,26 @@ body {
 #kritiksaran {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: $background-color_2;
+  background-color: $background-white;
 
   h1 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: $color_6;
-    font-family: $font-family_2;
+    color: $olive;
+    font-family: $font-secondary;
   }
 
   p {
     font-size: 18px;
     font-weight: 400;
-    color: $color_1;
+    color: $gunmetal;
     margin-bottom: 20px;
   }
 
   .btn {
-    background-color: $background-color_8;
-    color: $color_2;
+    background-color: $background-khaki;
+    color: $white;
     border-radius: 5px;
     border: solid 2px #fff;
     padding: 10px 10px;
@@ -352,15 +352,15 @@ body {
     transition: all .3s ease-in-out;
 
     &:hover {
-      background-color: $background-color_2;
+      background-color: $background-white;
       border: solid 2px #ff6754;
-      color: $color_7;
+      color: $coral;
     }
   }
 }
 
 footer {
-  background-color: $background-color_9;
+  background-color: $background-fawn;
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
@@ -368,21 +368,21 @@ footer {
   img {
     width: 100px;
     margin-bottom: 20px;
-    background-color: $background-color_2;
+    background-color: $background-white;
     border-radius: 10px;
     padding: 10px;
   }
 
   h3 {
     margin-bottom: 20px;
-    color: $color_8;
-    font-family: $font-family_2;
+    color: $khaki;
+    font-family: $font-secondary;
   }
 
   p {
     font-size: 18px;
     font-weight: 400;
-    color: $color_2;
+    color: $white;
     margin-bottom: 20px;
   }
 
@@ -392,13 +392,13 @@ footer {
 
     li {
       a {
-        color: $color_2;
+        color: $white;
         font-size: 18px;
         font-weight: 400;
         text-decoration: none;
 
         &:hover {
-          color: $color_9;
+          color: $fawn;
         }
       }
     }
@@ -407,12 +407,12 @@ footer {
   .social-icon {
     .fab {
       font-size: 24px;
-      color: $color_2;
+      color: $white;
       margin-right: 20px;
       transition: all .3s ease-in-out;
 
       &:hover {
-        color: $color_9;
+        color: $fawn;
       }
     }
   }
@@ -421,26 +421,26 @@ footer {
 .copyright {
   font-size: 14px;
   font-weight: 400;
-  color: $color_2;
+  color: $white;
   margin-top: 20px;
 }
 
 @media (max-width: 575.98px) {
   .navbar {
     .navbar-collapse {
-      background-color: $background-color_2;
+      background-color: $background-white;
       border-radius: 10px;
       margin-top: 10px;
 
       ul {
         li {
           a {
-            color: $color_5 !important;
+            color: $cocoa !important;
             padding-left: 20px;
 
             &:hover {
               border-left: #68411c solid 5px;
-              background-color: $background-color_3;
+              background-color: $background-crimson;
             }
           }
 
@@ -462,7 +462,7 @@ footer {
     &::placeholder {
       font-size: 14px;
       font-weight: 500;
-      color: $color_4;
+      color: $pale;
     }
   }
 }
