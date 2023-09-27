@@ -73,3 +73,9 @@ git pull origin main
 - Jika ada perubahan pada repository utama, maka lakukan langkah 5 untuk mengambil perubahan tersebut.
 - Jika ada konflik pada langkah 5, maka selesaikan konflik (Diskusikan di Grup)
 - **WAJIB** menggunakan Live Server pada Visual Studio Code untuk menghindari Block CORS.
+- Untuk Compile SCSS ke CSS per-bagian (partial) gunakan perintah berikut:
+   1. Masuk ke direktori root project dengan terminal
+   2. Jalankan perintah berikut:
+
+   ```bash 
+   sass assets/scss/layouts/_header.scss assets/css/layouts/_header.css --style compressed```

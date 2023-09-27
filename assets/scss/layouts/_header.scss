@@ -1,3 +1,8 @@
+// Import base variables
+@import "../base/reset";
+@import "../base/colors";
+@import "../base/typography";
+
 // Navbar
 .navbar {
   background-color: $background-gunmetal;

@@ -1,3 +1,8 @@
+// Import base variables
+@import "../base/reset";
+@import "../base/colors";
+@import "../base/typography";
+
 // Hero Banner
 .hero {
   background-image: url('/assets/img/others/bg-desktop.jpg');
