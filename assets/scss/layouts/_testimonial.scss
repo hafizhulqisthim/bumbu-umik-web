@@ -6,13 +6,13 @@
 
 #testimonial {
     padding: 100px;
-    background-color: #fff;
+    background-color: $white ;
 }
 
 #testimonial .carousel-control-prev {
     width: 50px;
     height: 50px;
-    background-color: #e1a56b;
+    background-color: $background-gunmetal;
     border-radius: 50%;
     border: none;
     outline: none !important;
@@ -21,7 +21,7 @@
 #testimonial .carousel-control-next {
     width: 50px;
     height: 50px;
-    background-color: #e1a56b;
+    background-color: $background-gunmetal;
     border-radius: 50%;
     border: none;
     outline: none !important;
@@ -65,7 +65,7 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #949232;
+    color: $olive;
     font-family: "Croissant One", cursive;
     text-align: center;
     font-size: 30px;
@@ -74,14 +74,14 @@
 .testimonial-title p {
     font-size: 18px;
     font-weight: 400;
-    color: #453a4f;
+    color: $gunmetal;
     margin-bottom: 20px;
     text-align: center;
     font-size: 18px;
 }
 
 #call-to-action {
-    background-color: #949232;
+    background-color: $background-coral;
     padding: 100px;
 }
 
@@ -94,20 +94,20 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #fff;
+    color: $white;
     font-family: "Croissant One", cursive;
 }
 
 #call-to-action p {
     font-size: 18px;
     font-weight: 400;
-    color: #fff;
+    color: $white;
     margin-bottom: 20px;
 }
 
 #call-to-action .btn {
-    background-color: #fff;
-    color: #949232;
+    background-color: $white;
+    color: $olive;
     border-radius: 5px;
     border: solid 2px #fff;
     padding: 10px 10px;
@@ -117,7 +117,7 @@
 }
 
 #call-to-action .btn:hover {
-    background-color: #949232;
+    background-color: $background-coral;
     border: solid 2px #fff;
     color: #fff;
 }
