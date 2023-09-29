@@ -4,7 +4,7 @@
 @import "../base/typography";
 
 #call-to-action {
-  background-color: $color-primary;
+  background-color: #44465f;
   padding: 100px;
 
   img {
@@ -28,21 +28,12 @@
   }
 
   .btn {
-    text-align: center;
-    margin-bottom: 3rem;
-    background-color: $color-white;
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: solid 2px $color-white;
-    transition: all 0.3s ease-in-out;
-    color: $color-primary;
-    font-weight: bold;
-    text-decoration: none !important;
+    @include button-style($color-primary);
 
     &:hover {
-      background-color: $color-primary;
-      border: solid 2px $color-white;
-      color: $color-white;
+      background-color: $color-white;
+      border: solid 2px $color-primary;
+      color: $color-primary;
     }
   }
 }

@@ -11,7 +11,7 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
 }
 
 #kritiksaran {
@@ -29,7 +29,7 @@ body {
 #kritiksaran p {
   font-size: 18px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
   margin-bottom: 20px;
 }
 #kritiksaran .btn {
@@ -53,21 +53,21 @@ body {
 #kritiksaran .form-group label {
   font-size: 18px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
   margin-bottom: 10px;
 }
 #kritiksaran .form-group input, #kritiksaran .form-group textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #3C2F3D;
+  border: solid 2px #44465F;
   font-size: 14px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
   transition: all 0.3s ease-in-out;
 }
 #kritiksaran .form-group input:focus, #kritiksaran .form-group textarea:focus {
   border: solid 2px #E1A56B;
 }
 
-/*# sourceMappingURL=kritiksaran.css.map */
+/*# sourceMappingURL=_kritiksaran.css.map */

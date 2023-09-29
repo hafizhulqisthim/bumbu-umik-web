@@ -11,7 +11,7 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
 }
 
 .navbar {
@@ -31,11 +31,11 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .nav-link .active {
-  color: #3C2F3D !important;
+  color: #44465F !important;
   font-weight: bold;
 }
 .nav-link:hover {
-  color: #3C2F3D;
+  color: #44465F;
 }
 
 .navbar-toggler {
@@ -56,7 +56,7 @@ body {
 .search-input::placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #537987;
+  color: #ccc;
 }
 
 .fixed-top {
@@ -77,11 +77,11 @@ body {
     margin-top: 10px;
   }
   .navbar .navbar-collapse ul li a {
-    color: #3C2F3D !important;
+    color: #44465F !important;
     padding-left: 20px;
   }
   .navbar .navbar-collapse ul li a:hover {
-    border-left: #3C2F3D solid 5px;
+    border-left: #44465F solid 5px;
     background-color: rgba(255, 248, 241, 0.37);
   }
   .search-input {
@@ -95,8 +95,8 @@ body {
   .search-input::placeholder {
     font-size: 14px;
     font-weight: 500;
-    color: #ad9c9c;
+    color: #537987;
   }
 }
 
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=_header.css.map */

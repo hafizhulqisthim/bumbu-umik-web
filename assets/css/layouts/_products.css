@@ -11,11 +11,11 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
 }
 
 #products {
-  background-color: #E1A56B;
+  background-color: #44465f;
 }
 #products .container {
   display: flex;
@@ -50,6 +50,7 @@ body {
   border-radius: 15px;
 }
 #products .card .btn-detail-product {
+  margin-top: 10px;
   background-color: #E1A56B;
   border: 2px solid #E1A56B;
   color: #ffffff;
@@ -59,10 +60,9 @@ body {
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
-#products .btn-detail-product:hover {
+#products .card .btn-detail-product:hover {
   background-color: #ffffff;
   color: #E1A56B;
-  border: #E1A56B;
   border: 2px solid #E1A56B;
 }
 #products .modal .modal-dialog {
@@ -73,7 +73,7 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  color: #3C2F3D;
+  color: #44465F;
 }
 #products .modal .modal-body {
   padding: 20px;
@@ -90,25 +90,25 @@ body {
 }
 #products .modal .modal-footer button {
   background-color: #E1A56B;
+  border: 2px solid #E1A56B;
   color: #ffffff;
-  border-radius: 5px;
-  border: solid 2px #ffffff;
-  padding: 10px 10px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
 #products .modal .modal-footer button:hover {
   background-color: #ffffff;
   color: #E1A56B;
-  border: solid 2px #E1A56B;
+  border: 2px solid #E1A56B;
 }
 #products .product-resep table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #ddd;
   margin-bottom: 20px;
-  color: #3C2F3D !important;
+  color: #44465F !important;
 }
 
-/*# sourceMappingURL=products.css.map */
+/*# sourceMappingURL=_products.css.map */

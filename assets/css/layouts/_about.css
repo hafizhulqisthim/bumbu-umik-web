@@ -11,7 +11,7 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
 }
 
 #about {
@@ -34,9 +34,9 @@ body {
 }
 #about p {
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
   margin-bottom: 20px;
   font-size: 18px;
 }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=_about.css.map */

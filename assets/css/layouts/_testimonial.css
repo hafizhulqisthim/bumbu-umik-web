@@ -11,7 +11,7 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
 }
 
 #testimonial {
@@ -67,7 +67,7 @@ body {
 #testimonial .testimonial-title p {
   font-size: 18px;
   font-weight: 400;
-  color: #3C2F3D;
+  color: #44465F;
   margin-bottom: 20px;
   text-align: center;
   font-size: 18px;
@@ -90,41 +90,4 @@ body {
   color: #E1A56B;
 }
 
-#call-to-action {
-  background-color: #E1A56B;
-  padding: 100px;
-}
-#call-to-action img {
-  width: 100%;
-  border-radius: 10px;
-}
-#call-to-action h1 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #ffffff;
-  font-family: "Croissant One", cursive;
-}
-#call-to-action p {
-  font-size: 18px;
-  font-weight: 400;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-#call-to-action .btn {
-  background-color: #ffffff;
-  color: #E1A56B;
-  border-radius: 10px;
-  border: solid 2px #fff;
-  padding: 10px 10px;
-  font-size: 14px;
-  font-weight: 700;
-  transition: all 0.3s ease-in-out;
-}
-#call-to-action .btn:hover {
-  background-color: #E1A56B;
-  border: solid 2px #fff;
-  color: #fff;
-}
-
-/*# sourceMappingURL=testimonial.css.map */
+/*# sourceMappingURL=_testimonial.css.map */
