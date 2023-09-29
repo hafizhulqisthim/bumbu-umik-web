@@ -2,3 +2,35 @@
 @import "../base/reset";
 @import "../base/colors";
 @import "../base/typography";
+
+//About
+
+#about {
+    background-color: $background-white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    img {
+        width: 60%;
+      }
+  
+    h3 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: $olive;
+      font-family: $font-secondary;
+    }
+  
+    p {
+      font-weight: 400;
+      color: $gunmetal;
+      margin-bottom: 20px;
+      font-size: 18px;
+      
+    }
+  
+  }

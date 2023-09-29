@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css2?family=Croissant+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Caveat&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #453a4f;
+}
+
+#about {
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#about img {
+  width: 60%;
+}
+#about h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #949232;
+  font-family: "Croissant One", cursive;
+}
+#about p {
+  font-weight: 400;
+  color: #453a4f;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=about.css.map */
