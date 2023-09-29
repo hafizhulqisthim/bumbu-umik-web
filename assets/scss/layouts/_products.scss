@@ -4,93 +4,120 @@
 @import "../base/typography";
 
 // Products
-
 #products {
-    background-color: $background-cocoa;
-  
-    .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin-bottom: 15px;
-    }
-  
-    .text-start {
-      margin-top: 30px;
-    }
-  
-    h1 {
-      font-size: 36px;
-      font-weight: 700;
-      margin-bottom: 20px;
-      color: $white;
-      font-family: $font-secondary;
-    }
-  
-    .card {
-      border: none;
-      transition: all .3s ease-in-out;
+  background-color: $color-primary;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .text-start {
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: $color-white;
+    font-family: $font-secondary;
+  }
+
+  .card {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    img {
+      max-width: 100%;
+      height: auto;
       border-radius: 15px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-  
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 15px;
-      }
-  
-      .btn-detail-product {
-        background-color: $background-gunmetal;
-        border: none;
-        color: $gunmetal;
-        font-size: 14px;
-        font-weight: 500;
-        padding: 10px 20px;
-        border-radius: 10px;
-        transition: all .3s ease-in-out;
-      }
-    }
-  
-    .btn-detail-product {
-      &:hover {
-        background-color: $background-white;
-        border: $background-gunmetal;
-        border: 3px solid $fawn;
-      }
     }
 
-    .modal {
-        .modal-dialog {
-          max-width: 800px; 
-          margin: 30px auto; 
-        }
-      
-        .modal-content {
-          border-radius: 10px;
-          background-color: $background-gunmetal;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-          color: $white;
-        }
-      
-        .modal-body {
-          padding: 20px;
-          text-align: center; 
-        }
-      
-        .img-fluid {
-          max-width: 100%;
-          height: auto;
-          border-radius: 10px; 
-        }
-      
-        .product-detail {
-          margin-top: 20px; 
-          text-align: justify; 
-        }
-      }
+    .btn-detail-product {
+      $btn-color: #E1A56B;
+      background-color: $btn-color;
+      border: 2px solid $btn-color;
+      color: $color-white;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+    }
   }
+
+  .btn-detail-product {
+    &:hover {
+      $btn-color: #E1A56B;
+      background-color: $color-white;
+      color: $btn-color;
+      border: $color-primary;
+      border: 2px solid $btn-color;
+    }
+  }
+
+  .modal {
+    .modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+    }
+
+    .modal-content {
+      border-radius: 10px;
+      background-color: $color-white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      color: $color-secondary;
+    }
+
+    .modal-body {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .product-detail {
+      margin-top: 20px;
+      text-align: justify;
+    }
+
+    .modal-footer button {
+      background-color: $color-primary;
+      color: $color-white;
+      border-radius: 5px;
+      border: solid 2px $color-white;
+      padding: 10px 10px;
+      font-size: 14px;
+      font-weight: 700;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .modal-footer button:hover {
+      background-color: $color-white;
+      color: $color-primary;
+      border: solid 2px $color-primary;
+    }
+  }
+
+  .product-resep table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    color: $color-secondary !important;
+  }
+}

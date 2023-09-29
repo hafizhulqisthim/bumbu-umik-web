@@ -14,57 +14,43 @@ body {
   color: #3C2F3D;
 }
 
-footer {
+#call-to-action {
   background-color: #E1A56B;
-  padding: 50px 50px 20px 50px;
+  padding: 100px;
 }
-footer img {
-  width: 100px;
-  margin-bottom: 20px;
-  background-color: #ffffff;
+#call-to-action img {
+  width: 100%;
   border-radius: 10px;
-  padding: 10px;
 }
-footer h3 {
+#call-to-action h1 {
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 20px;
   color: #ffffff;
   font-family: "Croissant One", cursive;
 }
-footer p {
+#call-to-action p {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 20px;
 }
-footer ul {
-  list-style: none;
-  padding: 0;
-}
-footer ul li a {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
+#call-to-action .btn {
+  text-align: center;
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 2px #ffffff;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 5px;
+  color: #E1A56B;
+  font-weight: bold;
+  text-decoration: none !important;
 }
-footer ul li a:hover {
-  color: #3C2F3D !important;
-}
-footer .social-icon .fab {
-  font-size: 24px;
+#call-to-action .btn:hover {
+  background-color: #E1A56B;
+  border: solid 2px #ffffff;
   color: #ffffff;
-  margin-right: 20px;
-  transition: all 0.3s ease-in-out;
-}
-footer .social-icon .fab:hover {
-  color: #949232;
-}
-footer .copyright {
-  font-size: 14px;
-  font-weight: 400;
-  color: #ffffff;
-  margin-top: 20px;
 }
 
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=cta.css.map */

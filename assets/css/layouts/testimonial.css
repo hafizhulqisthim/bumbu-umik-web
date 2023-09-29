@@ -11,38 +11,27 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #453a4f;
+  color: #3C2F3D;
 }
 
 #testimonial {
   padding: 100px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
-
-#testimonial .carousel-control-prev {
-  width: 50px;
-  height: 50px;
-  background-color: #e1a56b;
-  border-radius: 50%;
-  border: none;
-  outline: none !important;
-}
-
+#testimonial .carousel-control-prev,
 #testimonial .carousel-control-next {
   width: 50px;
   height: 50px;
-  background-color: #e1a56b;
+  background-color: #E1A56B;
   border-radius: 50%;
   border: none;
   outline: none !important;
 }
-
-.testimonial-item {
+#testimonial .testimonial-item {
   text-align: center;
   margin-bottom: 4rem;
 }
-
-.testimonial-item img {
+#testimonial .testimonial-item img {
   width: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -51,83 +40,89 @@ body {
   border-radius: 50%;
   margin-bottom: 1.5rem;
 }
-
-.testimonial-item h3 {
+#testimonial .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-
-.testimonial-item .rating {
+#testimonial .testimonial-item .rating {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-
-.testimonial-item p {
+#testimonial .testimonial-item p {
   font-size: 16px;
 }
-
-.testimonial-title {
+#testimonial .testimonial-title {
   text-align: center;
   margin-bottom: 3rem;
 }
-
-.testimonial-title h3 {
+#testimonial .testimonial-title h3 {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #949232;
+  color: #E1A56B;
   font-family: "Croissant One", cursive;
   text-align: center;
   font-size: 30px;
 }
-
-.testimonial-title p {
+#testimonial .testimonial-title p {
   font-size: 18px;
   font-weight: 400;
-  color: #453a4f;
+  color: #3C2F3D;
   margin-bottom: 20px;
   text-align: center;
   font-size: 18px;
 }
-
-#call-to-action {
-  background-color: #949232;
-  padding: 100px;
+#testimonial .testimonial-button {
+  text-align: center;
+  margin-bottom: 3rem;
+  background-color: #E1A56B;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 2px #E1A56B;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+#testimonial .testimonial-button:hover {
+  background-color: #ffffff;
+  border: solid 2px #E1A56B;
+  color: #E1A56B;
 }
 
+#call-to-action {
+  background-color: #E1A56B;
+  padding: 100px;
+}
 #call-to-action img {
   width: 100%;
   border-radius: 10px;
 }
-
 #call-to-action h1 {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fff;
+  color: #ffffff;
   font-family: "Croissant One", cursive;
 }
-
 #call-to-action p {
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 20px;
 }
-
 #call-to-action .btn {
-  background-color: #fff;
-  color: #949232;
-  border-radius: 5px;
+  background-color: #ffffff;
+  color: #E1A56B;
+  border-radius: 10px;
   border: solid 2px #fff;
   padding: 10px 10px;
   font-size: 14px;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
-
 #call-to-action .btn:hover {
-  background-color: #949232;
+  background-color: #E1A56B;
   border: solid 2px #fff;
   color: #fff;
 }

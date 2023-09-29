@@ -1,123 +1,93 @@
-// Import base variables
+// Import base variables;
 @import "../base/reset";
 @import "../base/colors";
 @import "../base/typography";
 
-
 #testimonial {
-    padding: 100px;
-    background-color: $white ;
-}
+  padding: 100px;
+  background-color: $color-white;
 
-#testimonial .carousel-control-prev {
+  .carousel-control-prev,
+  .carousel-control-next {
     width: 50px;
     height: 50px;
-    background-color: $background-gunmetal;
+    background-color: $color-primary;
     border-radius: 50%;
     border: none;
     outline: none !important;
-}
+  }
 
-#testimonial .carousel-control-next {
-    width: 50px;
-    height: 50px;
-    background-color: $background-gunmetal;
-    border-radius: 50%;
-    border: none;
-    outline: none !important;
-}
-
-.testimonial-item {
+  .testimonial-item {
     text-align: center;
     margin-bottom: 4rem;
-}
 
-.testimonial-item img {
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    max-width: 150px;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
-}
+    img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      max-width: 150px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 1.5rem;
+    }
 
-.testimonial-item h3 {
-    font-size: 24px;
-    margin-bottom: 1rem;
-}
+    h3 {
+      font-size: 24px;
+      margin-bottom: 1rem;
+    }
 
-.testimonial-item .rating {
-    font-size: 24px;
-    margin-bottom: 1rem;
-}
+    .rating {
+      font-size: 24px;
+      margin-bottom: 1rem;
+    }
 
-.testimonial-item p {
-    font-size: 16px;
-}
+    p {
+      font-size: 16px;
+    }
+  }
 
-.testimonial-title {
+  .testimonial-title {
     text-align: center;
     margin-bottom: 3rem;
-}
 
-.testimonial-title h3 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: $olive;
-    font-family: "Croissant One", cursive;
+    h3 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: $color-primary;
+      font-family: $font-secondary;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      color: $color-secondary;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+
+  .testimonial-button {
     text-align: center;
-    font-size: 30px;
-}
-
-.testimonial-title p {
-    font-size: 18px;
-    font-weight: 400;
-    color: $gunmetal;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 18px;
-}
-
-#call-to-action {
-    background-color: $background-coral;
-    padding: 100px;
-}
-
-#call-to-action img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-#call-to-action h1 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: $white;
-    font-family: "Croissant One", cursive;
-}
-
-#call-to-action p {
-    font-size: 18px;
-    font-weight: 400;
-    color: $white;
-    margin-bottom: 20px;
-}
-
-#call-to-action .btn {
-    background-color: $white;
-    color: $olive;
-    border-radius: 5px;
-    border: solid 2px #fff;
+    margin-bottom: 3rem;
+    background-color: $color-primary;
     padding: 10px 10px;
-    font-size: 14px;
-    font-weight: 700;
+    border-radius: 10px;
+    border: solid 2px $color-primary;
     transition: all 0.3s ease-in-out;
+    color: $color-white;
+    font-weight: bold;
+    text-decoration: none !important;
+
+    &:hover {
+      background-color: $color-white;
+      border: solid 2px $color-primary;
+      color: $color-primary;
+    }
+  }
 }
 
-#call-to-action .btn:hover {
-    background-color: $background-coral;
-    border: solid 2px #fff;
-    color: #fff;
-}
+

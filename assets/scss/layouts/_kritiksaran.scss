@@ -3,41 +3,66 @@
 @import "../base/colors";
 @import "../base/typography";
 
-
 #kritiksaran {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #fff;
-}
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $color-white;
 
-#kritiksaran h1 {
+  h1 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #949232;
-    font-family: "Croissant One", cursive;
-}
+    color: $color-primary;
+    font-family: $font-secondary;
+  }
 
-#kritiksaran p {
+  p {
     font-size: 18px;
     font-weight: 400;
-    color: #453a4f;
+    color: $color-secondary;
     margin-bottom: 20px;
-}
+  }
 
-#kritiksaran .btn {
-    background-color: #ff6754;
-    color: #fff;
-    border-radius: 5px;
-    border: solid 2px #fff;
+  .btn {
+    background-color: $color-primary;
+    color: $color-white;
+    border-radius: 10px;
+    border: solid 2px $color-white;
     padding: 10px 10px;
     font-size: 14px;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
-}
 
-#kritiksaran .btn:hover {
-    background-color: #fff;
-    border: solid 2px #ff6754;
-    color: #ff6754;
+    &:hover {
+      background-color: $color-white;
+      border: solid 2px $color-primary;
+      color: $color-primary;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+
+    label {
+      font-size: 18px;
+      font-weight: 400;
+      color: $color-secondary;
+      margin-bottom: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px 10px;
+      border-radius: 10px;
+      border: solid 2px $color-secondary;
+      font-size: 14px;
+      font-weight: 400;
+      color: $color-secondary;
+      transition: all 0.3s ease-in-out;
+
+      &:focus {
+        border: solid 2px $color-primary;
+      }
+    }
+  }
 }
