@@ -14,20 +14,14 @@ body {
   color: #44465F;
 }
 
-#keunggulan .card {
-  background-color: #ffffff;
-  transition: all 0.3s ease-in-out;
-  border: none;
-  margin-top: 10px;
-}
-#keunggulan .card img {
-  max-width: 50%;
-  height: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+.hero {
+  background-image: url("../../../assets/img/others/bg-desktop.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 90px;
 }
 
-/*# sourceMappingURL=_keunggulan.css.map */
+/*# sourceMappingURL=hero.css.map */

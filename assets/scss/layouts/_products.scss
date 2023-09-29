@@ -43,6 +43,12 @@
       border-radius: 15px;
     }
 
+    img:hover{
+      transform: scale(1.1);
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
     .btn-detail-product {
       margin-top: 10px;
       @include button-style($color-primary);   

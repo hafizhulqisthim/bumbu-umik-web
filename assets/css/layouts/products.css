@@ -49,6 +49,11 @@ body {
   height: auto;
   border-radius: 15px;
 }
+#products .card img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 #products .card .btn-detail-product {
   margin-top: 10px;
   background-color: #E1A56B;
@@ -111,4 +116,4 @@ body {
   color: #44465F !important;
 }
 
-/*# sourceMappingURL=_products.css.map */
+/*# sourceMappingURL=products.css.map */

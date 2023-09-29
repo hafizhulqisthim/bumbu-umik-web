@@ -32,6 +32,10 @@ body {
   color: #E1A56B;
   font-family: "Croissant One", cursive;
 }
+#about #about-title {
+  opacity: 1;
+  animation: blink 0.7s infinite;
+}
 #about p {
   font-weight: 400;
   color: #44465F;
@@ -39,4 +43,4 @@ body {
   font-size: 18px;
 }
 
-/*# sourceMappingURL=_about.css.map */
+/*# sourceMappingURL=about.css.map */

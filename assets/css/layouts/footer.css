@@ -14,46 +14,57 @@ body {
   color: #44465F;
 }
 
-#call-to-action {
+footer {
   background-color: #44465f;
-  padding: 100px;
+  padding: 50px 50px 20px 50px;
 }
-#call-to-action img {
-  width: 100%;
+footer img {
+  width: 100px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
   border-radius: 10px;
+  padding: 10px;
 }
-#call-to-action h1 {
-  font-size: 36px;
-  font-weight: 700;
+footer h3 {
   margin-bottom: 20px;
   color: #ffffff;
   font-family: "Croissant One", cursive;
 }
-#call-to-action p {
+footer p {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 20px;
 }
-#call-to-action .btn {
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li a {
   color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px 20px;
-  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 5px;
+}
+footer ul li a:hover {
+  color: #44465F !important;
+}
+footer .social-icon .fab {
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 20px;
   transition: all 0.3s ease-in-out;
 }
-#call-to-action .btn:hover {
-  background-color: #ffffff;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+footer .social-icon .fab:hover {
+  color: #949232;
 }
-#call-to-action .btn:hover {
-  background-color: #ffffff;
-  border: solid 2px #E1A56B;
-  color: #E1A56B;
+footer .copyright {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 20px;
 }
 
-/*# sourceMappingURL=_cta.css.map */
+/*# sourceMappingURL=footer.css.map */
