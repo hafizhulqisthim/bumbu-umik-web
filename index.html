@@ -585,16 +585,16 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-12 col-lg-6">
-            <img class="img-fluid shadow-sm" src="assets/img/others/products-photo.jpeg" alt="" style="width: 100%;">
+            <img class="img-fluid shadow-sm" src="assets/img/others/products-photo.jpeg" alt="" style="width: 100%;" data-aos="fade-right">
           </div>
           <div class="col-12 col-md-12 col-lg-6">
-            <h1>Bumbu Terlaris<br> Bumbu Opor</h1>
+            <h1>Bumbu <strong>Terlaris</strong><br> Bumbu Opor</h1>
             <p>Bumbu Rawon milik Bumbu Umik mempunyai rasa yang kuat sehingga membuat bumbu ini rasanya sangat mirip
-              dengan
-              bumbu aslinya daripada bumbu cepat saji lainnya. Penjualan bumbu ini menjadi terlaris dalam penjualan tiap
+              dengan bumbu aslinya daripada bumbu cepat saji lainnya. 
+              <br><br>
+              Penjualan bumbu ini menjadi terlaris dalam penjualan tiap
               bulannya karena cita rasa yang cocok di lidah orang Indonesia. Dalam proses pembuatannya, Bumbu Umik
-              sengaja
-              mencari bahan dasar yang sangat berkualitas. </p>
+              sengaja mencari bahan dasar yang sangat berkualitas. </p>
             <div class="row ecommerce">
               <div class="col-12 col-md-5">
                 <a href="" class="btn btn-danger">Belanja Sekarang</a>
@@ -654,7 +654,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6 col-6">
-          <h3 class="footer-title">Tautan Penting</h3>
+          <h3 class="footer-title">Tautan</h3>
           <ul class="list-unstyled">
             <li><a href="#">Beranda</a></li>
             <li><a href="#products">Produk</a></li>
@@ -698,6 +698,31 @@
     </div>
 
   </footer>
+
+  <!-- Whatsapp Modal Floating Button -->
+  <div class="whatsapp-float">
+    <a href="#" class="whatsapp-btn" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="whatsappModalLabel">Kirim Pesan WhatsApp</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="https://api.whatsapp.com/send" method="get" target="_blank">
+            <input type="hidden" name="phone" value="YOUR_PHONE_NUMBER_HERE"> 
+            <textarea name="text" class="form-control" placeholder="Tulis pesan Anda"></textarea>
+            <button type="submit" class="btn btn-primary mt-3">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- CDN Vendors Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
