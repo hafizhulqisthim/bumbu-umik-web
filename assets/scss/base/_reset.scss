@@ -19,8 +19,24 @@ body {
   color: $color-secondary;
 }
 
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 2px $color-primary;
+  font-size: 14px;
+  font-weight: 400;
+  color: $color-secondary;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+
+  &:focus {
+    border: solid 2px $color-primary;
+  }
+}
+
 // Mixin Button Style
-@mixin button-style($btn-color: #E1A56B) {
+@mixin button-style($btn-color: #e1a56b) {
   background-color: $btn-color;
   border: 2px solid $btn-color;
   color: #ffffff;

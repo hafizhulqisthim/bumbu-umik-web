@@ -14,6 +14,21 @@ body {
   color: #44465F;
 }
 
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 2px #E1A56B;
+  font-size: 14px;
+  font-weight: 400;
+  color: #44465F;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+}
+textarea:focus {
+  border: solid 2px #E1A56B;
+}
+
 footer {
   background-color: #44465f;
   padding: 50px 50px 20px 50px;
@@ -27,7 +42,7 @@ footer img {
 }
 footer h3 {
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #E1A56B;
   font-family: "Croissant One", cursive;
 }
 footer p {
@@ -46,10 +61,10 @@ footer ul li a {
   font-weight: 400;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 footer ul li a:hover {
-  color: #44465F !important;
+  color: #E1A56B !important;
 }
 footer .social-icon .fab {
   font-size: 24px;
@@ -63,7 +78,7 @@ footer .social-icon .fab:hover {
 footer .copyright {
   font-size: 14px;
   font-weight: 400;
-  color: #ffffff;
+  color: #E1A56B !important;
   margin-top: 20px;
 }
 

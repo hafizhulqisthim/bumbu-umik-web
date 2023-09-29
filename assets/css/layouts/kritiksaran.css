@@ -14,6 +14,21 @@ body {
   color: #44465F;
 }
 
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 2px #E1A56B;
+  font-size: 14px;
+  font-weight: 400;
+  color: #44465F;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+}
+textarea:focus {
+  border: solid 2px #E1A56B;
+}
+
 #kritiksaran {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -56,7 +71,8 @@ body {
   color: #44465F;
   margin-bottom: 10px;
 }
-#kritiksaran .form-group input, #kritiksaran .form-group textarea {
+#kritiksaran .form-group input,
+#kritiksaran .form-group textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
@@ -66,8 +82,73 @@ body {
   color: #44465F;
   transition: all 0.3s ease-in-out;
 }
-#kritiksaran .form-group input:focus, #kritiksaran .form-group textarea:focus {
+#kritiksaran .form-group input:focus,
+#kritiksaran .form-group textarea:focus {
   border: solid 2px #E1A56B;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whatsapp-btn {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.whatsapp-btn i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.whatsapp-btn:hover {
+  background: #128c7e;
+}
+
+#whatsappModal .modal-body textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 2px #25d366;
+  font-size: 14px;
+  font-weight: 400;
+  color: #44465F;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+}
+#whatsappModal .modal-body textarea:focus {
+  border: solid 2px #25d366;
+}
+#whatsappModal .modal-body button {
+  background-color: #25d366;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 2px #25d366;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+#whatsappModal .modal-body button:hover {
+  background-color: #128c7e;
+  border: solid 2px #128c7e;
+  color: #whatsappModal .modal-body button:hover color-white;
+}
+#whatsappModal .modal-body button:focus {
+  border: solid 2px #25d366;
 }
 
 /*# sourceMappingURL=kritiksaran.css.map */
