@@ -4,6 +4,9 @@
 @import "../base/typography";
 
 #keunggulan {
+  @function maxWidth($firstWidth,$secondWidth){
+    @return $firstWidth + $secondWidth;
+  }
   .card {
     background-color: $color-white;
     transition: all 0.3s ease-in-out;
@@ -11,7 +14,7 @@
     margin-top: 10px;
 
     img {
-      max-width: 50%;
+      max-width: maxWidth(30%,20% );
       height: auto;
       margin-bottom: 20px;
       margin-top: 20px;
