@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
   // Active link
   function setActiveLink() {
     var currentHash = window.location.hash;
@@ -10,17 +9,16 @@ $(document).ready(function () {
   setActiveLink();
   $(window).on("hashchange", setActiveLink);
 
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
+
   // Initialize AOS
   AOS.init();
-
-  // Typed JS
-  var typed = new Typed("#about-title", {
-    strings: ["Tentang Produk", "Bumbu Umik"],
-    typeSpeed: 100,
-    showCursor: false,
-    fadeOut: true,
-    fadeOutClass: "typed-fade-out",
-    fadeOutDelay: 500,
-    loop: true,
-  });
 });

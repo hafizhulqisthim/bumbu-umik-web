@@ -52,3 +52,10 @@ textarea {
     border: 2px solid $btn-color;
   }
 }
+
+// AOS Smooth 
+[data-aos] {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  will-change: transform;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}

@@ -29,6 +29,12 @@ textarea:focus {
   border: solid 2px #E1A56B;
 }
 
+[data-aos] {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  will-change: transform;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
 footer {
   background-color: #44465f;
   padding: 50px 50px 20px 50px;
