@@ -65,9 +65,10 @@ textarea:focus {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 10px;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 #call-to-action .btn:hover {
   background-color: #ffffff;

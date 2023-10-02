@@ -1,7 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Croissant+One&display=swap";
 @import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Caveat&display=swap";
-
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,6 @@ textarea {
   transition: all 0.3s ease-in-out;
   resize: none;
 }
-
 textarea:focus {
   border: solid 2px #E1A56B;
 }
@@ -45,11 +43,9 @@ textarea:focus {
   justify-content: center;
   text-align: center;
 }
-
 #about img {
   width: 60%;
 }
-
 #about h3 {
   font-size: 36px;
   font-weight: 700;
@@ -57,12 +53,10 @@ textarea:focus {
   color: #E1A56B;
   font-family: "Croissant One", cursive;
 }
-
 #about #about-title {
   opacity: 1;
   animation: blink 0.7s infinite;
 }
-
 #about p {
   font-weight: 400;
   color: #44465F;

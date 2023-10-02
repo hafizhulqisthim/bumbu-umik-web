@@ -42,9 +42,10 @@ textarea {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  padding: 10px 20px;
+  padding: button-size("small");
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 
   &:hover {
     background-color: #ffffff;
@@ -58,4 +59,17 @@ textarea {
   transition: opacity 0.5s ease, transform 0.5s ease;
   will-change: transform;
   transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+// Function ukuran button
+@function button-size($size) {
+  @if $size == "small" {
+    @return 10px;
+  } @else if $size == "medium" {
+    @return 20px;
+  } @else if $size == "large" {
+    @return 30px;
+  } @else {
+    @return 0;
+  }
 }
