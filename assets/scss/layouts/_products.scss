@@ -76,11 +76,12 @@
       text-align: center;
     }
 
+ // coba Extend
     .img-fluid {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
+      @extend img;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     }
+    
 
     .product-detail {
       margin-top: 20px;

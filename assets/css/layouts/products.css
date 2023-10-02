@@ -64,12 +64,12 @@ textarea:focus {
   flex-direction: column;
   height: 100%;
 }
-#products .card img {
+#products .card img, #products .card .modal .img-fluid, #products .modal .card .img-fluid {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
 }
-#products .card img:hover {
+#products .card img:hover, #products .card .modal .img-fluid:hover, #products .modal .card .img-fluid:hover {
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -106,9 +106,7 @@ textarea:focus {
   text-align: center;
 }
 #products .modal .img-fluid {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 #products .modal .product-detail {
   margin-top: 20px;
