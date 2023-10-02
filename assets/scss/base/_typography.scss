@@ -30,4 +30,3 @@ $font-sizes: (
   $extraLarge: map-get($font-sizes, "extra-large");
   @return $regular + $extraLarge;
 }
-
