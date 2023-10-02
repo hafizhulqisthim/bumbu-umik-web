@@ -1,17 +1,18 @@
-// Import base variables
-@import "../base/reset";
-@import "../base/colors";
-@import "../base/typography";
+// Use base variables
+@use "../base/reset";
+@use "../base/colors";
+@use "../base/typography";
 
 #keunggulan {
   @function maxWidth($firstWidth,$secondWidth){
     @return $firstWidth + $secondWidth;
   }
   .card {
-    background-color: $color-white;
-    transition: all 0.3s ease-in-out;
+    background-color: base/colors.$color-white;
     border: none;
     margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+   
 
     img {
       max-width: maxWidth(30%,20% );
