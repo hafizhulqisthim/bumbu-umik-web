@@ -68,9 +68,6 @@ textarea:focus {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-#testimonial .testimonial-item p {
-  font-size: 16px;
-}
 #testimonial .testimonial-title {
   text-align: center;
   margin-bottom: 3rem;
@@ -85,12 +82,10 @@ textarea:focus {
   font-size: 30px;
 }
 #testimonial .testimonial-title p {
-  font-size: 18px;
   font-weight: 400;
   color: #44465F;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 18px;
 }
 #testimonial .testimonial-button {
   text-align: center;
