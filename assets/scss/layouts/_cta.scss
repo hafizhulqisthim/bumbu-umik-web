@@ -36,7 +36,7 @@
     @include button-style($color-primary);
 
     &:hover {
-      background-color: $color-white;
+      background-color: #44465f;
       border: solid 2px $color-primary;
       color: $color-primary;
     }
