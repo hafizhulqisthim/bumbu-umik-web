@@ -14,4 +14,13 @@ $font-weights: (
 }
 
 
+$font-sizes: (
+  “small”: 14px,
+  “regular”: 16px,
+  “large”: 18px,
+  “extra-large”: 20px
+);
 
+@function font-size($size-name) {
+  @return map-get($font-sizes , $size-name)
+}
