@@ -19,6 +19,25 @@ $(document).ready(function () {
     });
   });
 
-  // Initialize AOS
-  AOS.init();
+  // Initialize AOS and smooth config
+  AOS.init({
+    duration: 1200,
+    once: true,
+  });
+
+  // Typing Effects
+  var text = "Tentang Produk";
+  var index = 0;
+
+  function typeEffect() {
+    var interval = setInterval(function () {
+      $("#about-title").text($("#about-title").text() + text[index]);
+      index++;
+      if (index === text.length) {
+        clearInterval(interval);
+      }
+    }, 100); // Waktu antar karakter (ms)
+  }
+
+  typeEffect();
 });
