@@ -42,7 +42,7 @@
     }
 
     p {
-      font-size: base/typography.font-size("regular");
+      font-size: 16px;
     }
   }
 
@@ -51,22 +51,22 @@
     margin-bottom: 3rem;
 
     h3 {
-      font-size: base/typography.regularPlusExtralarge();
+      font-size: 36px;
       font-weight: 700;
       margin-bottom: 10px;
-      color: $color-primary;
-      font-family: $font-secondary;
+      color: base/colors.$color-primary;
+      font-family: base/typography.$font-secondary;
       text-align: center;
-      font-size: base/typography.regularPlusExtralarge();
+      font-size: 36px;
     }
 
     p {
-      font-size: base/typography.font-size("large");
+      font-size: 18px;
       font-weight: 400;
-      color: $color-secondary;
+      color: base/colors.$color-secondary;
       margin-bottom: 20px;
       text-align: center;
-      font-size: base/typography.font-size("large");
+      font-size: 18px;
     }
   }
 
@@ -76,18 +76,16 @@
     background-color: base/colors.$color-primary;
     padding: 10px 10px;
     border-radius: 10px;
-    border: solid 2px $color-primary;
+    border: solid 2px base/colors.$color-primary;
     transition: all 0.3s ease-in-out;
-    color: $color-white;
+    color: base/colors.$color-white;
     font-weight: bold;
     text-decoration: none !important;
 
     &:hover {
       background-color: base/colors.$color-white;
-      border: solid 2px $color-primary;
-      color: $color-primary;
+      border: solid 2px base/colors.$color-primary;
+      color: base/colors.$color-primary;
     }
   }
 }
-
-
