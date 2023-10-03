@@ -37,13 +37,13 @@ textarea:focus {
 
 #testimonial {
   padding: 100px;
-  background-color: #ffffff;
+  background-color: base/#ffffff;
 }
 #testimonial .carousel-control-prev,
 #testimonial .carousel-control-next {
   width: 50px;
   height: 50px;
-  background-color: #E1A56B;
+  background-color: base/#E1A56B;
   border-radius: 50%;
   border: none;
   outline: none !important;
@@ -70,45 +70,45 @@ textarea:focus {
   margin-bottom: 1rem;
 }
 #testimonial .testimonial-item p {
-  font-size: font-size("regular");
+  font-size: 16px;
 }
 #testimonial .testimonial-title {
   text-align: center;
   margin-bottom: 3rem;
 }
 #testimonial .testimonial-title h3 {
-  font-size: regularPlusExtralarge();
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #E1A56B;
-  font-family: "Croissant One", cursive;
+  color: base/#E1A56B;
+  font-family: base/"Croissant One", cursive;
   text-align: center;
-  font-size: regularPlusExtralarge();
+  font-size: 36px;
 }
 #testimonial .testimonial-title p {
-  font-size: font-size("large");
+  font-size: 18px;
   font-weight: 400;
-  color: #44465F;
+  color: base/#44465F;
   margin-bottom: 20px;
   text-align: center;
-  font-size: font-size("large");
+  font-size: 18px;
 }
 #testimonial .testimonial-button {
   text-align: center;
   margin-bottom: 3rem;
-  background-color: #E1A56B;
+  background-color: base/#E1A56B;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px base/#E1A56B;
   transition: all 0.3s ease-in-out;
-  color: #ffffff;
+  color: base/#ffffff;
   font-weight: bold;
   text-decoration: none !important;
 }
 #testimonial .testimonial-button:hover {
-  background-color: #ffffff;
-  border: solid 2px #E1A56B;
-  color: #E1A56B;
+  background-color: base/#ffffff;
+  border: solid 2px base/#E1A56B;
+  color: base/#E1A56B;
 }
 
 /*# sourceMappingURL=testimonial.css.map */
