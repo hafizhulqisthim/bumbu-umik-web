@@ -1,17 +1,17 @@
-// Use base variables;
-@use "../base/reset";
-@use "../base/colors";
-@use "../base/typography";
+// Use base variables
+@import "../base/reset";
+@import "../base/colors";
+@import "../base/typography";
 
 #testimonial {
   padding: 100px;
-  background-color: base/colors.$color-white;
+  background-color: $color-white;
 
   .carousel-control-prev,
   .carousel-control-next {
     width: 50px;
     height: 50px;
-    background-color: base/colors.$color-primary;
+    background-color: $color-primary;
     border-radius: 50%;
     border: none;
     outline: none !important;
@@ -27,7 +27,6 @@
       margin-bottom: 20px;
       max-width: 150px;
       height: auto;
-      border-radius: 50%;
       margin-bottom: 1.5rem;
     }
 
@@ -54,38 +53,129 @@
       font-size: 36px;
       font-weight: 700;
       margin-bottom: 10px;
-      color: base/colors.$color-primary;
-      font-family: base/typography.$font-secondary;
-      text-align: center;
-      font-size: 36px;
+      color: $color-primary;
+      font-family: $font-secondary;
     }
 
     p {
       font-size: 18px;
       font-weight: 400;
-      color: base/colors.$color-secondary;
+      color: $color-secondary;
       margin-bottom: 20px;
-      text-align: center;
-      font-size: 18px;
     }
   }
 
   .testimonial-button {
-    text-align: center;
-    margin-bottom: 3rem;
-    background-color: base/colors.$color-primary;
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: solid 2px base/colors.$color-primary;
-    transition: all 0.3s ease-in-out;
-    color: base/colors.$color-white;
-    font-weight: bold;
-    text-decoration: none !important;
-
+    @include button-style($color-primary);
+    
     &:hover {
-      background-color: base/colors.$color-white;
-      border: solid 2px base/colors.$color-primary;
-      color: base/colors.$color-primary;
+      background-color: $color-white;
+      border: solid 2px $color-primary;
+      color: $color-primary;
     }
+  }
+}
+
+// Ulasan Lainnya
+.ulasan {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.ulasan .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.ulasan .card .card-body {
+  padding: 20px;
+}
+
+.avatar-image {
+  width: 100%;
+  max-width: 60px;
+  border-radius: 50%;
+}
+
+.ulasan .card .card-body .text-secondary {
+  font-size: 0.9rem;
+}
+
+.float-right {
+  float: right;
+}
+
+.fa-star {
+  color: #ffc107;
+}
+
+.fa-star-half {
+  color: #ffc107;
+}
+
+.ulasan-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #E1A56B;
+  font-family: "Croissant One", cursive;
+}
+
+.ulasan .card .card-body p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.page-item.active .page-link {
+  background-color: #E1A56B;
+  border-color: #E1A56B;
+}
+
+.page-link {
+  color: #44465F;
+}
+
+.page-link:hover {
+  background-color: #E1A56B;
+  border-color: #E1A56B;
+  color: #44465F;
+}
+
+.page-item .active {
+  background-color: #E1A56B;
+  border-color: #E1A56B;
+  color: #fff;
+}
+
+.page-item.disabled .page-link {
+  color: #44465F;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.page-item.disabled .page-link:hover {
+  background-color: #af9898;
+  border-color: #af9898;
+}
+
+.page-item.disabled .page-link:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .col-md-2 {
+    text-align: center;
+  }
+
+  .col-md-2 img {
+    margin-bottom: 10px;
   }
 }
