@@ -17,31 +17,36 @@
     outline: none !important;
   }
 
-  .testimonial-item {
-    text-align: center;
-    margin-bottom: 4rem;
-
-    img {
-      width: 100px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-      max-width: 150px;
-      height: auto;
-      margin-bottom: 1.5rem;
-    }
-
-    h3 {
-      font-size: 24px;
-      margin-bottom: 1rem;
-    }
-
-    .rating {
-      font-size: 24px;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      font-size: 16px;
+  // Gunakan @each untuk mengulangi style pada elemen testimonial-item
+  @each $index, $item in ("active", "") {
+    .carousel-item#{$index} {
+      .testimonial-item {
+        text-align: center;
+        margin-bottom: 4rem;
+  
+        img {
+          width: 100px;
+          border-radius: 50%;
+          margin-bottom: 20px;
+          max-width: 150px;
+          height: auto;
+          margin-bottom: 1.5rem;
+        }
+  
+        h3 {
+          font-size: 24px;
+          margin-bottom: 1rem;
+        }
+  
+        .rating {
+          font-size: 24px;
+          margin-bottom: 1rem;
+        }
+  
+        p {
+          font-size: 16px;
+        }
+      }
     }
   }
 
@@ -65,6 +70,18 @@
     }
   }
 
+  // Gunakan mixin untuk style tombol testimonial-button
+  @mixin button-style($color) {
+    background-color: $color;
+    color: $color-white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
   .testimonial-button {
     @include button-style($color-primary);
     

@@ -48,11 +48,11 @@ textarea:focus {
   border: none;
   outline: none !important;
 }
-#testimonial .testimonial-item {
+#testimonial .carousel-itemactive .testimonial-item {
   text-align: center;
   margin-bottom: 4rem;
 }
-#testimonial .testimonial-item img {
+#testimonial .carousel-itemactive .testimonial-item img {
   width: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -60,15 +60,38 @@ textarea:focus {
   height: auto;
   margin-bottom: 1.5rem;
 }
-#testimonial .testimonial-item h3 {
+#testimonial .carousel-itemactive .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-#testimonial .testimonial-item .rating {
+#testimonial .carousel-itemactive .testimonial-item .rating {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-#testimonial .testimonial-item p {
+#testimonial .carousel-itemactive .testimonial-item p {
+  font-size: 16px;
+}
+#testimonial .carousel-item .testimonial-item {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#testimonial .carousel-item .testimonial-item img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+#testimonial .carousel-item .testimonial-item h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+#testimonial .carousel-item .testimonial-item .rating {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+#testimonial .carousel-item .testimonial-item p {
   font-size: 16px;
 }
 #testimonial .testimonial-title {
@@ -90,19 +113,13 @@ textarea:focus {
 }
 #testimonial .testimonial-button {
   background-color: #E1A56B;
-  border: 2px solid #E1A56B;
   color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px;
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
-}
-#testimonial .testimonial-button:hover {
-  background-color: #ffffff;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  transition: background-color 0.3s, color 0.3s;
 }
 #testimonial .testimonial-button:hover {
   background-color: #ffffff;
