@@ -2,31 +2,4 @@
 $font-primary   : 'M PLUS Rounded 1c', sans-serif;
 $font-secondary : 'Croissant One', cursive;
 
-// Font Weight
-$font-weights: (
-  “light”: 300,
-  “regular”: 400,
-  “bold”: 700
-);
 
-@function weight($weight-name) {
-  @return map-get($font-weights , $weight-name)
-}
-
-
-$font-sizes: (
-  “small”: 14px,
-  “regular”: 16px,
-  “large”: 18px,
-  “extra-large”: 20px
-);
-
-@function font-size($size-name) {
-  @return map-get($font-sizes , $size-name)
-}
-
-@function regularPlusExtralarge() {
-  $regular: map-get($font-sizes, "regular");
-  $extraLarge: map-get($font-sizes, "extra-large");
-  @return $regular + $extraLarge;
-}

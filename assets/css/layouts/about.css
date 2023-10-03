@@ -10,6 +10,7 @@
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
+  font-weight: weight(regular);
   color: #44465F;
 }
 
@@ -60,7 +61,7 @@ textarea:focus {
   font-weight: 400;
   color: #44465F;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: font-size("large");
 }
 
 /*# sourceMappingURL=about.css.map */
