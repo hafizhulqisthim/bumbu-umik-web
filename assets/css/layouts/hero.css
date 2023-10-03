@@ -47,13 +47,13 @@ textarea:focus {
 
 @media (max-width: 767px) {
   .hero {
-    background-image: url("/assets/img/others/bg-smartphone.jpg") !important;
+    background-image: url("../../../assets/img/others/bg-smartphone.jpg") !important;
     height: 800px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .hero {
-    background-image: url("/assets/img/others/bg-desktop.jpg");
+    background-image: url("../../../assets/img/others/bg-desktop.jpg");
     margin-top: 40px;
   }
 }
