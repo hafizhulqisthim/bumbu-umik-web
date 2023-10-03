@@ -36,7 +36,7 @@ $(document).ready(function () {
       if (index === text.length) {
         clearInterval(interval);
       }
-    }, 100); // Waktu antar karakter (ms)
+    }, 100); 
   }
 
   typeEffect();
