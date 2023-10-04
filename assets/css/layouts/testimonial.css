@@ -48,11 +48,11 @@ textarea:focus {
   border: none;
   outline: none !important;
 }
-#testimonial .carousel-itemactive .testimonial-item {
+#testimonial .carousel-item:nth-child(1) .testimonial-item {
   text-align: center;
   margin-bottom: 4rem;
 }
-#testimonial .carousel-itemactive .testimonial-item img {
+#testimonial .carousel-item:nth-child(1) .testimonial-item img {
   width: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -60,22 +60,22 @@ textarea:focus {
   height: auto;
   margin-bottom: 1.5rem;
 }
-#testimonial .carousel-itemactive .testimonial-item h3 {
+#testimonial .carousel-item:nth-child(1) .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-#testimonial .carousel-itemactive .testimonial-item .rating {
+#testimonial .carousel-item:nth-child(1) .testimonial-item .rating {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-#testimonial .carousel-itemactive .testimonial-item p {
+#testimonial .carousel-item:nth-child(1) .testimonial-item p {
   font-size: 16px;
 }
-#testimonial .carousel-item .testimonial-item {
+#testimonial .carousel-item:nth-child(2) .testimonial-item {
   text-align: center;
   margin-bottom: 4rem;
 }
-#testimonial .carousel-item .testimonial-item img {
+#testimonial .carousel-item:nth-child(2) .testimonial-item img {
   width: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -83,15 +83,15 @@ textarea:focus {
   height: auto;
   margin-bottom: 1.5rem;
 }
-#testimonial .carousel-item .testimonial-item h3 {
+#testimonial .carousel-item:nth-child(2) .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-#testimonial .carousel-item .testimonial-item .rating {
+#testimonial .carousel-item:nth-child(2) .testimonial-item .rating {
   font-size: 24px;
   margin-bottom: 1rem;
 }
-#testimonial .carousel-item .testimonial-item p {
+#testimonial .carousel-item:nth-child(2) .testimonial-item p {
   font-size: 16px;
 }
 #testimonial .testimonial-title {
@@ -113,13 +113,19 @@ textarea:focus {
 }
 #testimonial .testimonial-button {
   background-color: #E1A56B;
+  border: 2px solid #E1A56B;
   color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+}
+#testimonial .testimonial-button:hover {
+  background-color: #ffffff;
+  color: #E1A56B;
+  border: 2px solid #E1A56B;
 }
 #testimonial .testimonial-button:hover {
   background-color: #ffffff;
